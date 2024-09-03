@@ -41,14 +41,15 @@ button{
 }
 
 .cardsDiv{
+    
      margin: non;
      box-sizing: border-box;
      margin-top: 30px;
     gap: 15px; 
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 600px 600px 600px 600px;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto auto auto auto;
     position: relative;
     
 }
@@ -69,19 +70,67 @@ button{
 
     /*move the cards upwards*/
     top: -13px;
+
+    cursor: pointer;
+    background-color: #e70f0f98;
     
 }
 
-#image1 img{
-    width:100%;
-    height: 40%;
+.images{
+    width: 100%;
+    height: 20rem;
+    background-color: green;
 }
-img{
+.images img{
 
     width: 100%;
-    height: 300px;
+    height: 100%;
+    object-fit:cover;
+    
 
 }
+
+/*@media (min-width: 780px) and (max-width: 1080px) {
+
+    
+    .cardsDiv {
+     
+      background-color: red;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      
+    }
+
+    .tab{
+        font-size: 13px;
+    }
+
+    
+}*/
+
+@media (min-width: 481px) and (max-width: 780px) {
+    .tab{
+        font-size:  13px;
+    }
+    .cardsDiv {
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto auto;
+    }
+}
+
+@media(max-width: 480px){
+    .tab{
+        font-size: 7px;
+
+    }
+
+    .cardsDiv{
+        grid-auto-columns: auto;
+        background-color: blue;
+    }
+}
+
+
 
 
 
@@ -102,4 +151,10 @@ img{
     left: 50%;
     border: 2px solid black;
     margin-top: 20px;
+    transition: top ease 0.5s;
 } 
+
+#dettagli:hover{
+ position: relative;
+ top: -10px;
+}
