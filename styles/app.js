@@ -1,4 +1,4 @@
-const bt = document.querySelectorAll(".afterConts");
+const bt = document.querySelectorAll(".afterCont");
 
 function handleButtonClick(event) {
   // Remove 'active' class from all buttons
