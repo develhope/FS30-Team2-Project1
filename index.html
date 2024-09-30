@@ -1,57 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <title>project_02</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
-
-</body>
-
-
-<header>
-    <div class="header-container">
-        <button><svg style="height: 20px; width: 20px;" class=button-menu x="0px" y="0px" viewBox="0 0 20 16"
-                style="enable-background:new 0 0 20 16">
-                <path class="st0" d="M1,2h18c0.6,0,1-0.4,1-1s-0.4-1-1-1H1C0.4,0,0,0.4,0,1S0.4,2,1,2z M19,
-    7H1C0.4,7,0,7.4,0,8s0.4,1,1,1h18 c0.6,0,1-0.4,1-1S19.6,7,19,7z M19,
-    14H1c-0.6,0-1,0.4-1,1s0.4,1,1,1h18c0.6,0,1-0.4,1-1S19.6,14,19,14z"></path>
-            </svg></button>
-        <a href="https://www.ea.com/it-it" class="logo">
-            <img src="/DATA/ea-wordmark-network-nav-coral.svg" alt="EA Logo">
-        </a>
-
+    <header>
         <nav>
-            <ul class="nav-links">
-                <li><a href="#">Games</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Careers</a></li>
-            </ul>
+            <div class="btnNav">
 
-        </nav>
-        <a href="#" class="cta-button">Join Now</a>
-    </div>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Max Verstappen celebra EA SPORTS FC™ 25</h1>
-            <h2>Il campione del mondo Max Verstappen ha un casco in edizione speciale</h2>
-            <p>Fai tappa allo storico "tempio della velocità", il circuito di Monza. Per celebrare la sua passione per
-                EA SPORTS FC™ 25 e la decima vittoria consecutiva nel 2023, Max indosserà un casco in edizione speciale
-                al Grand Prix d'Italia 2024.</p>
-            <div class="hero-buttons">
-                <a href="/it-it/games/f1/f1-24/buy" class="btn">ACQUISTA ORA</a>
-                <a href="https://www.youtube.com/watch?v=6Wc-Veb4xUQ" class="btn">AFFRONTA IL GIRO DI VERSTAPPEN A
-                    MONZA</a>
+                <button class="btn">
+                    <title>Profile</title><img src="/assets/icons/user.svg" alt="Profile"
+                        style="height: 35px; width: 35px;" id="iconNav">
+                </button>
+
+                <button class="btn">
+                    <title>Help</title><img src="/assets/icons/question-mark.svg" alt="Help"
+                        style="height: 35px; width: 35px; " id="iconNav">
+                </button>
+
+                <button class="btn">
+                    <img src="/assets/icons/ea-medallion-white.svg" alt="EA Logo" style="height: 32px; width: 32px;"
+                        id="iconNav">
+                    <title>EA Logo</title>
+                </button>
 
             </div>
+        </nav>
+
+        <div class="shelf-header">
+            <div class="menu">
+                <button class="button-sub-nav button-menu"><svg style="height: 30px; width: 28px;" class="sx-menu"
+                        viewBox="0 0 20 16">
+                        <path class="st0" d="M1,2h18c0.6,0,1-0.4,1-1s-0.4-1-1-1H1C0.4,0,0,0.4,0,1S0.4,2,1,2z 
+                          M19,7H1C0.4,7,0,7.4,0,8s0.4,1,1,1h18 c0.6,0,1-0.4,1-1S19.6,7,19,7z M19,
+                          14H1c-0.6,0-1,0.4-1,1s0.4,1,1,1h18c0.6,0,1-0.4,1-1S19.6,14,19,14z">
+                        </path>
+                    </svg>
+                </button>
+
+                <button class="button-sub-nav EA-logo-main"><img src="/assets/icons/ea-wordmark-network-nav-coral.svg"
+                        alt="logo"></button>
+
+                <ul class="nav-links">
+                    <li>
+                        <button class="dropbtn">GIOCHI</button>
+                        <div class="games-list">
+                            <div class="links-section">
+                                <ul>
+                                    <h4>ESPLORA I GIOCHI</h4>
+                                    <li><a href="#">Ultimi giochi</a></li>
+                                    <li><a href="#">Prossimamente</a></li>
+                                    <li><a href="#">Giochi gratuiti</a></li>
+                                    <li><a href="#">EA SPORTS</a></li>
+                                    <li><a href="#">EA Originals</a></li>
+                                    <li><a href="#">Libreria dei giochi</a></li>
+                                    <li><a href="#">Offerte EA app</a>
+                                </ul>
+                                <ul>
+                                    <h4>PIATTAFORME</h4>
+                                    <li><a href="#">PC</a></li>
+                                    <li><a href="#">PlayStation</a></li>
+                                    <li><a href="#">Xbox</a></li>
+                                    <li><a href="#">Nintendo Switch&trade;</a></li>
+                                    <li><a href="#">Dispositivi mobili</a></li>
+                                    <li><a href="#">Pogo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <button class="dropbtn">ESPERIENZE</button>
+                        <ul class="games-list">
+                            <li><a href="#">Per EA app</a></li>
+                            <li><a href="#">EA Play</a></li>
+                            <li><a href="#">Competizioni videoludiche</a></li>
+                            <li><a href="#">Test di gioco</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="dropbtn">INFORMAZIONI</button>
+                        <ul class="games-list">
+                            <li><a href="#">Società</a></li>
+                            <li><a href="#">Lavora con noi</a></li>
+                            <li><a href="#">Notizie</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">EA Studios</a></li>
+                            <li><a href="#">Partner EA</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="dropbtn">IMPEGNI</button>
+                        <ul class="games-list">
+                            <li><a href="#">I nostri impegni</a></li>
+                            <li><a href="#">Gioco positivo</a></li>
+                            <li><a href="#">Persone e cultura inclusiva</a></li>
+                            <li><a href="#">Impatto sociale</a></li>
+                            <li><a href="#">Ambiente</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="dropbtn">RISORSE</button>
+                        <ul class="games-list">
+                            <li><a href="#">Aiuto</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Filtro famiglia</a></li>
+                            <li><a href="#">Accessibilità</a></li>
+                            <li><a href="#">Stampa</a></li>
+                            <li><a href="#">Investitori</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cont">
+                <div class="fc25">
+                    <img src="/assets/images/fc25-logo-teaser-l-m.png" alt="FC25">
+                    <h1>EA SPORTS FC™ 25 È DISPONIBILE</h1>
+                    <button class="play"><a href="#">Gioca ora</a></button>
+                </div>
+
+                <div class="hero-img">
+                    <img src="/assets/images/fc25-hero-md-eacom-launch-7x2-xl.jpg.adapt.crop7x2.1920w.jpg"
+                        alt="hero-img">
+                </div>
+            </div>
         </div>
-        <img src="/DATA/IMG/f124-hero-md-max-helmet-7x2-xl.jpg.adapt.crop5x2.1455w.jpg" alt="Max Verstappen Helmet">
-    </section>
-</header>
+
+        <div class="end">
+            <h2>PREPARATI A GUIDARE IL FUTURO IN F1&reg; 24: STAGIONE 3</h2>
+            <button class="info"><a href="#">SCOPRI DI PIÙ</a></button>
+        </div>
+    </header>
+</body>
 
 </html>
