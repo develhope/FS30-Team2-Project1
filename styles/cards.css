@@ -115,6 +115,7 @@
   position: relative;
   text-align: center;
   color: white;
+  background-color: cornflowerblue;
 }
 .eaplay {
   display: flex;
@@ -157,4 +158,30 @@
   height: 30%;
   object-fit: contain;
   object-position: left;
+}
+#pcontrol {
+  display: flex;
+  justify-content: space-around;
+  background-color: cornflowerblue;
+  height: 100px;
+}
+#pcontrolbutton {
+  border: solid black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  transition: 0.2s ease;
+  font-size: large;
+  cursor: pointer;
+}
+#pcontrolbutton:hover {
+  padding: 15px 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+#pcontrolwarning {
+  margin-left: 30px;
+  max-width: 300px;
+  margin-top: 30px;
+  font-size: larger;
 }
