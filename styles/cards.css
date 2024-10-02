@@ -258,12 +258,24 @@
 
 #socialLinksFooter2 {
   display: flex;
-  gap: 30px;
+  gap: 20px;
+}
+.linkFooter2:hover {
+  cursor: pointer;
+  color: red;
 }
 .socialLinks {
+  margin: 10px 10px;
   height: 22px;
   width: 22px;
+  transition: 0, 1 ease;
+}
+.socialLinks:hover {
+  cursor: pointer;
+  margin: 5px 5px 10px 10px;
+  height: 27px;
+  width: 27px;
 }
 #partecipa {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
