@@ -219,3 +219,51 @@
   margin-top: 20%;
   margin-left: 10%;
 }
+
+#footer1 {
+  padding: 40px;
+  background-color: lightgray;
+}
+#scrittaTeC {
+  font-size: small;
+  display: flex;
+  margin-bottom: 30px;
+}
+#linkTeC {
+  color: red;
+}
+#linkTeC:hover {
+  cursor: pointer;
+}
+
+.centrificatore2 {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#linksFooter2 {
+  display: flex;
+  gap: 30px;
+}
+#footer2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#socialFooter2 {
+  font-weight: bolder;
+  font-size: small;
+  text-align: end;
+}
+
+#socialLinksFooter2 {
+  display: flex;
+  gap: 30px;
+}
+.socialLinks {
+  height: 22px;
+  width: 22px;
+}
+#partecipa {
+  margin-bottom: 20px;
+}
