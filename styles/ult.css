@@ -129,6 +129,11 @@ button {
 }*/
 
 @media (min-width: 741px) and (max-width: 1070px) {
+  #finalino2{
+    display: grid;
+    grid-template-columns: auto;
+   
+  }
   .tab {
     font-size: 16px;
     white-space: nowrap;
@@ -145,6 +150,14 @@ button {
 }
 
 @media only screen and (max-width: 740px) {
+
+  #finalino2{
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 15px;
+    word-break: break-all;
+   
+  }
   .tab {
     justify-content: unset;
     font-size: 15px;
