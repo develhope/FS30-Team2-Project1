@@ -221,7 +221,7 @@
 }
 
 #footer1 {
-  padding: 40px 20%;
+  padding: 40px 10%;
   background-color: lightgray;
 }
 #scrittaTeC {
@@ -236,11 +236,6 @@
   cursor: pointer;
 }
 
-.centrificatore2 {
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
 #linksFooter2 {
   display: flex;
   gap: 30px;
@@ -258,7 +253,7 @@
 
 #socialLinksFooter2 {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 .linkFooter2:hover {
   cursor: pointer;
@@ -278,4 +273,70 @@
 }
 #partecipa {
   margin-bottom: 10px;
+}
+#trueFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10%;
+}
+#logoEAViolet {
+  height: 47px;
+  width: 47px;
+}
+#finalLinks {
+  margin: 0% 40px 40px;
+}
+#eaLinks {
+  gap: 30px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.legalLink {
+  font-size: small;
+}
+#legalLinks {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px 30px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+#copyright {
+  margin-top: 20px;
+  font-size: small;
+}
+
+#regionSelection {
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+}
+#region {
+  border: none;
+  font-size: medium;
+  padding: 10px;
+}
+#regionLabel {
+  color: rgb(145, 145, 145);
+  padding: 10px;
+  margin-top: 20px;
+}
+.selections {
+  border: 1px solid rgb(145, 145, 145);
+  padding: 10px;
+}
+#languageLabel {
+  color: rgb(145, 145, 145);
+  margin-top: 20px;
+}
+#language {
+  border: none;
+  font-size: medium;
+  padding: 10px;
+}
+#finalSeal {
+  margin-left: 55%;
+  margin-top: 15%;
 }
