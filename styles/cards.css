@@ -295,6 +295,9 @@
 .legalLink {
   font-size: small;
 }
+.legalLink:hover {
+  cursor: pointer;
+}
 #legalLinks {
   margin-top: 10px;
   margin-bottom: 10px;
