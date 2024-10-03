@@ -292,6 +292,9 @@
   justify-content: left;
   flex-wrap: wrap;
 }
+.eaLink:hover {
+  cursor: pointer;
+}
 .legalLink {
   font-size: small;
 }
